@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Шахматний годинник</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script src="script.js"></script>
+</head>
+<body>
+
+
+<p class="lw">Шахматний годинник. / Chess-clock</p>
+  <span class="text">Час білих:
+  <input class="text" id = "wTime" onchange="wTime(this)" value="15"/>хв<br/></span><br/>
+  <span class="text">Час чорних:
+  <input class="text" id= "bTime" onchange="bTime(this)" value="15"/>хв<br/></span><br/>
+  <button class="lw" id = 'but' onclick="start()">Старт</button><br/>
+ <br/>
+  <span class="lw">Час гри:
+  <input class="text" id="time"/><br/></span><br/>
+  <span class="text">Залишилось білим:
+  <input class="text" id="zalW"/><br></span><br/>
+  <span class="text">Залишилось чорним:
+  <input class="text" id="zalB"/><br/></span>
+  
+</body>
+</html>
